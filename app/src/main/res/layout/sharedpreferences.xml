@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etSharedPrefs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@+id/etSharedPrefs"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/btLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        android:layout_below="@+id/btSave"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/tvLoadSharedPrefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load your data"
+        android:layout_below="@+id/btLoad"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
